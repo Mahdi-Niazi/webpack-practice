@@ -4,8 +4,8 @@
   "description": "\"# webpack-practice\"",
   "private": "true",
   "scripts": {
-   "test": "echo \"Error: no test specified\"&& exit 1",
-   "build": "webpack"
+    "test": "echo \"Error: no test specified\"&& exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Mahdi-Niazi/webpack-practice#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"
   },
